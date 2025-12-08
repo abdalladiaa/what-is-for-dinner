@@ -569,71 +569,71 @@ function randomRecipes() {
                     ${warning}
                   <div>
                     <ul
-                      class="nav nav-pills mb-3 d-flex justify-content-between p-2 flex-nowrap"
-                      id="pills-tab"
-                      role="tablist"
+                  class="nav nav-pills mb-3 d-flex justify-content-between p-2 row"
+                  id="pills-tab"
+                  role="tablist"
+                >
+                  <li class="nav-item col-3" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="pills-Ingredients-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-Ingredients"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-Ingredients"
+                      aria-selected="true"
                     >
-                      <li class="nav-item" role="presentation">
-                        <button
-                          class="nav-link active"
-                          id="pills-Ingredients-tab"
-                          data-bs-toggle="pill"
-                          data-bs-target="#pills-Ingredients"
-                          type="button"
-                          role="tab"
-                          aria-controls="pills-Ingredients"
-                          aria-selected="true"
-                        >
-                          <i class="fa-solid fa-list-check me-1"></i>
-                          Ingredients
-                        </button>
-                      </li>
-                      <li class="nav-item" role="presentation">
-                        <button
-                          class="nav-link"
-                          id="pills-Instructions-tab"
-                          data-bs-toggle="pill"
-                          data-bs-target="#pills-Instructions"
-                          type="button"
-                          role="tab"
-                          aria-controls="pills-Instructions"
-                          aria-selected="false"
-                        >
-                          <i class="fa-etch fa-solid fa-book-open me-1"></i>
-                          Instructions
-                        </button>
-                      </li>
-                      <li class="nav-item" role="presentation">
-                        <button
-                          class="nav-link"
-                          id="pills-Nutrition-tab"
-                          data-bs-toggle="pill"
-                          data-bs-target="#pills-Nutrition"
-                          type="button"
-                          role="tab"
-                          aria-controls="pills-Nutrition"
-                          aria-selected="false"
-                        >
-                          <i class="fa-solid fa-chart-pie me-1"></i>
-                          Nutrition
-                        </button>
-                      </li>
-                      <li class="nav-item" role="presentation">
-                        <button
-                          class="nav-link"
-                          id="pills-Tips-tab"
-                          data-bs-toggle="pill"
-                          data-bs-target="#pills-Tips"
-                          type="button"
-                          role="tab"
-                          aria-controls="pills-Tips"
-                          aria-selected="false"
-                        >
-                          <i class="fa-solid fa-lightbulb me-1"></i>
-                          Chef's Tips
-                        </button>
-                      </li>
-                    </ul>
+                      <i class="fa-solid fa-list-check me-1"></i>
+                      Ingredients
+                    </button>
+                  </li>
+                  <li class="nav-item col-3" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-Instructions-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-Instructions"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-Instructions"
+                      aria-selected="false"
+                    >
+                      <i class="fa-etch fa-solid fa-book-open me-1"></i>
+                      Instructions
+                    </button>
+                  </li>
+                  <li class="nav-item col-3" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-Nutrition-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-Nutrition"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-Nutrition"
+                      aria-selected="false"
+                    >
+                      <i class="fa-solid fa-chart-pie me-1"></i>
+                      Nutrition
+                    </button>
+                  </li>
+                  <li class="nav-item col-3" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="pills-Tips-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-Tips"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-Tips"
+                      aria-selected="false"
+                    >
+                      <i class="fa-solid fa-lightbulb me-1"></i>
+                      Chef's Tips
+                    </button>
+                  </li>
+                </ul>
                     <hr />
                     <div class="tab-content mt-4" id="pills-tabContent">
                       <div

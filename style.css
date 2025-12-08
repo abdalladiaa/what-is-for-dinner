@@ -26,7 +26,7 @@ h1 {
   color: rgb(106, 114, 130);
 }
 
-.navbar .left img {
+.navbar img {
   width: 40px;
   height: 40px;
   outline: 1px solid var(--main-color);
@@ -36,7 +36,7 @@ a {
   text-decoration: none;
 }
 
-.navbar .left a {
+.navbar a {
   color: #4a5565;
   transition: 0.2s;
 }
